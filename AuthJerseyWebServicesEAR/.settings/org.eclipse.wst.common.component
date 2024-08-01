@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="AuthJerseyWebServicesEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="AuthJerseyWebServicesWeb.war" deploy-path="/" handle="module:/resource/AuthJerseyWebServicesWeb/AuthJerseyWebServicesWeb">
+            <dependent-object>WebModule_1614701343976</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
