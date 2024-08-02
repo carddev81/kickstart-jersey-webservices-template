@@ -5,8 +5,8 @@ This kickstart webservices application has everything you need to start using be
 
 **NOTE** Basic user roles configured are **ADMIN** and **USER**.
 
-1. MySQL driver jar (add this to your server installation in a path like:  ${wlp.install.dir}\databasedriverswas9\mysql)
-2 Datasource configuration for liberty server is below:
+1. MySQL driver jar (add this to your server installation in a path like within a liberty server:  ${wlp.install.dir}\databasedriverswas9\mysql)
+2. Datasource configuration for liberty server is below:
 ```
   <jdbcDriver id="mysqlJdbcDriver">
     <library>
